@@ -9,5 +9,12 @@
   "private": true,
   "dependencies": {
     "discord.js": "discordjs/discord.js"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-aqua": "^6.0.1"
+  }, 
+  "eslintConfig": {
+    "extends": "aqua/node"
+}
 }
